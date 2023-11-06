@@ -42,7 +42,7 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions.
 
 ---
 
