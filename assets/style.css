@@ -1,0 +1,27 @@
+:root {
+    --dark: #222737;
+    --light: #8bdeff;
+}
+
+header {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.text-right {
+    text-align: right;
+    padding: 20px 20px;
+    display: inline;
+}
+
