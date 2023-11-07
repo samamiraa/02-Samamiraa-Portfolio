@@ -37,9 +37,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 First I wanted to draw inspiration from other portfolios. Since this will be my first ever, I was not really sure which way to go. 
 https://www.hostinger.com/tutorials/web-developer-portfolio
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+To make image a link to take to live URL.
+https://pagedart.com/blog/linking-images-in-html/
 
 ## License
 
