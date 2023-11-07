@@ -1,7 +1,7 @@
 :root {
     --darkGray: #111111;
     --lightBlue: #d1f2ff;
-    --lightGray: #363636;
+    --lightGray: #232f35;
 }
 
 header {
@@ -23,6 +23,7 @@ h1 {
 
 h2 {
     font-size: 50px;
+    padding: 20px;
 }
 
 h3 {
@@ -62,9 +63,9 @@ img {
     height: 30px;
 }
 
-#About {
+/* #About { */
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
 }
 
 #flex-wrap {
