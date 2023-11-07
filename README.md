@@ -43,6 +43,9 @@ https://pagedart.com/blog/linking-images-in-html/
 LinkedIn Icon
 https://www.flaticon.com/free-icons/linkedin
 
+Tutorials
+https://blog.hubspot.com/website/css-id#:~:text=CSS%20Image%20ID,could%20use%20an%20ID%20selector
+
 ## License
 
 The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions.

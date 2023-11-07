@@ -8,6 +8,13 @@ header {
     color: var(--light);
 }
 
+body {
+    background-image: linear-gradient(
+        rgb(44, 44, 44, 0.3) 0%
+        rgb(44, 44, 44, 0.6) 100%
+    );
+}
+
 li {
     display: inline;
     padding: 0px 20px;
@@ -15,8 +22,8 @@ li {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
 }
 
 .text-right {
@@ -25,3 +32,7 @@ img {
     display: inline;
 }
 
+#linkedIn {
+    width: 30px;
+    height: 30px;
+}
