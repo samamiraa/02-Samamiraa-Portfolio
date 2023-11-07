@@ -40,6 +40,9 @@ https://www.hostinger.com/tutorials/web-developer-portfolio
 To make image a link to take to live URL.
 https://pagedart.com/blog/linking-images-in-html/
 
+Coming Soon Placeholder Image
+https://www.freepik.com/free-vector/coming-soon-display-background-with-focus-light_18505068.htm#query=coming%20soon&position=16&from_view=keyword&track=ais"
+
 ## License
 
 The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions.
