@@ -43,14 +43,6 @@ img {
     height: 300px;
 }
 
-a:link, a:visited {
-    background-color: var(--darkGray);
-    color: var(--lightBlue);
-    padding: 25px 35px;
-    text-decoration: none;
-    display: inline-block;
-  }
-
 .text-right {
     text-align: right;
     padding: 20px 20px;
@@ -61,7 +53,28 @@ a:link, a:visited {
     text-align: center;
 }
 
+.background-color {
+    background-color: var(--lightGray);
+}
+
 #linkedIn {
     width: 30px;
     height: 30px;
 }
+
+#About {
+    display: flex;
+    flex-direction: row;
+}
+
+#flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:link, a:visited {
+    color: var(--lightBlue);
+    padding: 25px 35px;
+    text-decoration: none;
+    display: inline-block;
+  }
