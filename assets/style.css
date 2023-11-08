@@ -8,6 +8,7 @@ header {
     background-color: var(--lightGray);
     color: var(--light);
     border-bottom: 4px solid var(--lightBlue);
+    position: relative;
 }
 
 body {
@@ -17,15 +18,15 @@ body {
 }
 
 h1 {
-    font-size: 75px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 50px;
 }
 
 h2 {
     display: flex;
-    font-size: 50px;
-    padding: 40px;
+    font-size: 30px;
+    padding: 10px;
     justify-content: center;
     border: var(--lightGray);
 }
@@ -33,13 +34,20 @@ h2 {
 h3 {
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    padding: 40px;
-    margin-top: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+h4 {
+    color: var(--darkGray);
+    background-color: var(--lightBlue);
+    padding: 100px 120px;
+    font-size: 18px;
 }
 
 p {
-    padding: 20px;
+    padding: 10px;
 }
 
 li {
@@ -75,26 +83,39 @@ form {
 
 .background-color {
     background-color: var(--lightGray);
+    border-radius: 25px;
 }
 
 .card {
-    width: 500px;
+    width: 400px;
     height: 400px;
-    padding: 75px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     margin-top: 75px;
     margin-bottom: 75px;
+    background: var(--lightGray);
 }
 
 .a-padding {
-    padding: 25px;
+    margin-top: 50px;
+    padding: 30px;
 }
 
 .display-inline {
-    display: inline;
+    display: flex;
+}
+
+#about {
+    background: var(--lightGray);
+}
+
+#p-padding {
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #myWork {
@@ -106,6 +127,10 @@ form {
 #linkedIn {
     width: 30px;
     height: 30px;
+}
+
+#contactMe {
+    background: var(--lightGray);
 }
 
 
