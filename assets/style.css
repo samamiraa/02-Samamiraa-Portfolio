@@ -7,6 +7,7 @@
 header {
     background-color: var(--lightGray);
     color: var(--light);
+    border-bottom: 4px solid var(--lightBlue);
 }
 
 body {
@@ -58,24 +59,42 @@ img {
     background-color: var(--lightGray);
 }
 
+.card {
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+}
+
+
 #linkedIn {
     width: 30px;
     height: 30px;
 }
 
-/* #About { */
-    /* display: flex;
-    flex-direction: wrap;
-} */
+#About {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
 
-#flex-wrap {
+#My-Work {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
 }
+
+#avatar img {
+    width: 220px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 220px;
+}
+
 
 a:link, a:visited {
     color: var(--lightBlue);
     padding: 25px 35px;
     text-decoration: none;
     display: inline-block;
-  }
+  } 
