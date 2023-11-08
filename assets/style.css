@@ -23,8 +23,11 @@ h1 {
 }
 
 h2 {
+    display: flex;
     font-size: 50px;
     padding: 20px;
+    justify-content: center;
+    border: var(--lightGray);
 }
 
 h3 {
@@ -41,8 +44,13 @@ li {
 }
 
 img {
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
 }
 
 .text-right {
@@ -63,34 +71,24 @@ img {
     width: 500px;
     height: 400px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 
 #linkedIn {
     width: 30px;
     height: 30px;
 }
 
-#About {
-    display: flex;
-    flex-direction: column;
-    float: left;
-}
-
-#My-Work {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    float: left;
-}
 
 #avatar img {
     width: 220px;
     height: 200px;
     padding: 20px;
-    margin-left: 220px;
+    display: flex;
 }
-
 
 a:link, a:visited {
     color: var(--lightBlue);
