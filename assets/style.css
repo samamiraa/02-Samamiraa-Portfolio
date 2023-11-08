@@ -25,17 +25,21 @@ h1 {
 h2 {
     display: flex;
     font-size: 50px;
-    padding: 20px;
+    padding: 40px;
     justify-content: center;
     border: var(--lightGray);
 }
 
 h3 {
+    display: flex;
+    justify-content: center;
     font-size: 30px;
+    padding: 40px;
+    margin-top: 50px;
 }
 
-pre {
-    font-size: 40px;
+p {
+    padding: 20px;
 }
 
 li {
@@ -51,6 +55,12 @@ img {
 figure {
     display: flex;
     justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .text-right {
@@ -70,11 +80,27 @@ figure {
 .card {
     width: 500px;
     height: 400px;
-    padding: 20px;
+    padding: 75px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.a-padding {
+    padding: 25px;
+}
+
+.display-inline {
+    display: inline;
+}
+
+#myWork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #linkedIn {
