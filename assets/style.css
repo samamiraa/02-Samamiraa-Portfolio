@@ -64,9 +64,9 @@ img {
 }
 
 /* #About { */
-    display: flex;
+    /* display: flex;
     flex-direction: wrap;
-}
+} */
 
 #flex-wrap {
     display: flex;
