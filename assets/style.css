@@ -42,6 +42,7 @@ h3 {
     display: inline-block;
     font-size: 20px;
     padding: var(--padding20);
+    margin-left: 55px;
 }
 
 /* Padding for 'p' element */
@@ -122,8 +123,22 @@ button {
 
 /* Sets margin and padding for class 'a padding' for repository links */
 .a-padding {
-    margin-top: 50px;
+    margin: 30px 0px 20px 25px;
     padding: 15px;
+}
+
+.code-margin {
+    margin: 130px 0px 20px 25px;
+}
+
+/* Sets margin for 'advcss-margin' class */
+.advcss-margin {
+    margin: 115px 0px 20px 25px;
+}
+
+/* Sets margins for js project repository links */
+.js-margin {
+    margin: 65px 0px 20px 60px;
 }
 
 /* Sets display to flex and directions to column. Line height to create space inbetween text and input  */
