@@ -129,8 +129,7 @@ button {
 
 #p-padding {
     padding: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
+    min-width: 150px;
 }
 
 #myWork {
@@ -171,3 +170,19 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
   } 
+
+  @media  screen and (max-width: 992px) {
+    body,
+    a:visited {
+        color: #46ceff;
+    }
+
+ }
+
+ @media  screen and (max-width: 768px) {
+   body,
+   a:visited {
+        color: #0051ff;
+    }
+ }
+
