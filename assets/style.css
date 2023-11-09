@@ -33,17 +33,11 @@ h2 {
 h3 {
     display: inline-block;
     font-size: 20px;
-}
-
-h4 {
-    color: var(--darkGray);
-    background-color: var(--lightBlue);
-    padding: 90px 100px;
-    font-size: 18px;
+    padding: 20px;
 }
 
 p {
-    padding: 10px;
+    padding: 20px;
 }
 
 li {
@@ -98,17 +92,17 @@ button {
     flex: 1 0 30%;
     padding: 10px;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: center;
     align-items: stretch;
     margin: 15px 15px;
     border: 3px solid var(--lightGray);
     border-radius: 25px;
+    width: 350px;
 }
 
 .a-padding {
     margin-top: 50px;
-    padding: 30px;
-    display: flex;
+    padding: 15px;
 }
 
 .form-center{

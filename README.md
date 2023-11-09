@@ -46,6 +46,10 @@ https://www.flaticon.com/free-icons/linkedin
 Tutorials
 https://blog.hubspot.com/website/css-id#:~:text=CSS%20Image%20ID,could%20use%20an%20ID%20selector
 
+Coming Soon Img
+Image by starline on Freepik
+https://www.freepik.com/free-vector/coming-soon-display-background-with-focus-light_18505068.htm#query=coming%20soon&position=15&from_view=keyword&track=ais 
+
 ## License
 
 The MIT License is short and to the point. It lets people do almost anything they want with your project, like making and distributing closed source versions.
