@@ -37,12 +37,12 @@ h2 {
     justify-content: center;
 }
 
-/* Display, font size and padding for 'h3'element */
+/* Display, font size, left margin and padding for 'h3'element */
 h3 {
     display: inline-block;
     font-size: 20px;
     padding: var(--padding20);
-    margin-left: 55px;
+    /* margin-left: 55px; */
 }
 
 /* Padding for 'p' element */
@@ -87,6 +87,26 @@ button {
     flex-wrap: wrap;
 }
 
+/* sets left margin for class 'heading margin' */
+.heading-margin {
+    margin-left: 75px;
+}
+
+/* Sets left margin for class 'heading center' */
+.heading-center {
+    margin-left: 50px;
+}
+
+/* Sets margin for 'p' element in adv css & code refactor card */
+.paragraph-margin {
+    margin: 95px 0px 20px 10px;
+}
+
+/* Sets left margin for 'p' element in js cards */
+.js-paragraph {
+    margin-left: 90px;
+}
+
 /* Makes text align to right side of page */
 .text-right {
     text-align: right;
@@ -127,13 +147,15 @@ button {
     padding: 15px;
 }
 
+/* Sets margin for code refactor repository link */
 .code-margin {
-    margin: 130px 0px 20px 25px;
+    margin-top: 18px;
+    margin-left: 25px;
 }
 
 /* Sets margin for 'advcss-margin' class */
 .advcss-margin {
-    margin: 115px 0px 20px 25px;
+    margin-left: 25px;
 }
 
 /* Sets margins for js project repository links */
