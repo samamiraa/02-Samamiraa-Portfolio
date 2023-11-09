@@ -1,29 +1,35 @@
+/* Universal selector sets margin, padding and box size */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Sets height for HTML */
 html {
   height: 100%;
 }
 
+/* Sets min height, line height and font family for the 'body' */
 body {
   min-height: 100%;
   line-height: 1;
   font-family: sans-serif;
 }
 
+/* Sets font sizes for all headings */
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
+/* Sets font size and font family for the following elements */
 input, select, option, optgroup, textarea, button,
 pre, code {
   font-size: 100%;
   font-family: inherit;
 }
 
+/* Sets the list style to none for ordered and unordered lists */
 ol, ul {
   list-style: none;
 }

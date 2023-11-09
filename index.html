@@ -1,6 +1,8 @@
+<!-- Sets doc type to HTML and language to English -->
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Sets character setting, title and links reset & style css sheets -->
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +11,9 @@
     <link rel="Stylesheet" href="./assets/style.css" />
 </head>
 
+<!-- Body is everything seen on the page -->
 <body>
+<!-- Header contains navigation links -->
     <header>
         <nav class="text-right">
             <ul>
@@ -20,7 +24,9 @@
         </nav>
    </header>
 
+<!-- Main section of page -->
    <main>
+<!-- About me section includes developers name and avatar-->
         <section id="about">
             <div class="text-center">
                 <h1>Samantha Allen</h1>
@@ -28,9 +34,11 @@
                     <img src="./Images/avatar.jpeg" alt="Cartoon Memoji">
                 </figure>
             </div>
-
+           
             <div>
+                <!-- About Me Header -->
                 <h2>About Me</h2>
+                    <!-- Description of developer -->
                     <p id="p-padding"> My name is Samantha, but you can call me Sam. I am a full stack developer in training, based in New 
                     Brunswick, Canada. I am currently a student of University of New Brunswick, taking their Full Stack 
                     Web Development Bootcamp. Feel free to look around! If you have any questions, please contact me by 
@@ -38,101 +46,129 @@
                     </p>
             </div>
         </section>
-
+        <!-- My Work section contains all current live projects and two placeholder projects coming soon -->
         <h2>My Work</h2>
         <section id="myWork" class="flex-container">
             <div class="card">
+                <!-- Card Header -->
                 <h3 class="heading-margin">01 Mini Project</h3>
+                <!-- Image of deployed project clickable to go to live URL -->
                 <a href="https://samamiraa.github.io/01-Mini-Project/">
                     <img id="enlarged" src="./Images/01-Mini-Project.png" alt="Graphic of 'My Landing Page'" class="center"><br>
                 </a><br>
+                        <!-- Brief description of project -->
                         <p>In this project, I built a landing page. The primary focus was HTML basics. Click the Image
                             to go to the live URL. <br>
                          </p>
-                            
+                         <!-- Link to Github repository    -->
                         <a class="background-color a-padding" href="https://github.com/samamiraa/01-Mini-Project">Check out this projects repository!</a>
             </div>
 
             <div class="card">
+                 <!-- Card Header -->
                 <h3 class="heading-margin">01 Code Refactor</h3>
+                <!-- Image of deployed project clickable to go to live URL -->
                     <a href="https://samamiraa.github.io/01-Code-Refactor/">
                         <img src="./Images/01-Code-Refactor.png" alt="Graphic of 'Code Refactor' live URL"><br>
                     </a><br> 
+                    <!-- Brief description of project -->
                         <p class="paragraph-margin">In this project, we were given starter code. The primary focus was to refactor the code.
                          Click the image to go to the live URL.
                         </p>
-
+                        <!-- Link to Github repository    -->
                         <a class="background-color code-margin" href="https://github.com/samamiraa/01-Code-Refactor">Check out this projects repository!</a>
             </div>
 
             <div class="card">
+                 <!-- Card Header -->
                 <h3 class="heading-center">02 Adv CSS Mini Project</h3>
+                <!-- Image of deployed project clickable to go to live URL -->
                     <a href="https://samamiraa.github.io/02-Adv-CSS-Mini-Project/">
                         <img src="./Images/02-Adv-CSS-Mini-Project.png" alt="Graphic of CSS cheatsheat Adv CSS project"><br>
                     </a><br>
+                    <!-- Brief description of project -->
                         <p class="paragraph-margin"> In this project, we built a CSS cheatsheet from scratch. The primary focus was advanced CSS. Click the image
                             to go to the live URL.
                         </p>
-                        
+                        <!-- Link to Github repository    -->
                         <a class="background-color advcss-margin" href="https://github.com/samamiraa/02-Adv-CSS-Mini-Project">Check out this projects repository!</a>
             </div>
 
             <div class="card">
+                 <!-- Card Header -->
                 <h3 class="heading-center">02 Samamiraa Portfolio</h3>
+                <!-- Image of deployed project clickable to go to live URL -->
                     <!-- Add image of portfolio final product and URL  -->
                     <a href="">
                         <img src="./Images/02 Samamiraa Portfolio.png" alt="Graphic of Samamiraa Portfolio"><br>
                     </a><br>
+                    <!-- Brief description of project -->
                         <p>In this project, we built our portfolios. The primary focus is advanced CSS.
                             Click the image to go to the live URL.
                             </p>
-
+                        <!-- Link to Github repository    -->
                         <a class="background-color a-padding" href="https://github.com/samamiraa/02-Samamiraa-Portfolio">Check out this projects repository!</a>
             </div>
 
             <div class="card">
+                 <!-- Card Header -->
                 <h3 class="heading-margin">03 Js Mini Project</h3>
+                <!-- Placeholder image as projects are 'coming soon' -->
                     <a href="">
                         <img src="./Images/Coming Soon.jpg" alt="Graphic of coming soon"><br>
                     </a><br>
+                    <!-- Brief description of project -->
                         <p class="js-paragraph">Project coming soon!</p>
+                        <!-- Link to all Samamiraa Github repositories    -->
                         <a class="background-color js-margin" href="https://github.com/samamiraa?tab=repositories">Repository coming soon!</a>
             </div>
 
             <div class="card">
+                 <!-- Card Header -->
                 <h3 class="heading-margin">03 Js Project</h3>
+                <!-- Placeholder image as projects are 'coming soon' -->
                     <a href="">
                         <img src="./Images/Coming Soon.jpg" alt="Graphic of coming soon"><br>
                     </a><br>
+                    <!-- Brief description of project -->
                         <p class="js-paragraph"> Project coming soon!</p>
+                         <!-- Link to all Samamiraa Github repositories    -->
                         <a class="background-color js-margin" href="https://github.com/samamiraa?tab=repositories">Repository coming soon!</a>
             </div>
         </section>
-
+        <!-- Contact Me Section -->
         <section id="contactMe">
+            <!-- Contact Me Header -->
             <h2>Contact Me</h2><br>
+                <!-- Form to submit Name and Email -->
                 <form class="form-center">
                     <ul>
+                        <!-- Label Name and input section -->
                         <li><label for="name">Name:  </label></li><br>
                         <li><input type="text" id="name" name="name" value=""></li><br>
                     </ul>
 
                     <ul>
+                        <!-- Label Email and input section -->
                         <li><label for="email">Email:  </label></li><br>
                         <li><input type="text" id="email" name="email" value=""></li><br>
                     </ul>
+                    <!-- Button to submit -->
                     <button type="submit">SEND</button>
                 </form>
-
+                
                 <div id="display-inline">
+                    <!-- Lets Connect Header -->
                     <h3>Let's Connect!</h3>
+                        <!-- Linked in icon clickable to go to developers linkedIn -->
                         <a href="https://www.linkedin.com/in/samantha-allen-51199b96/">
                             <img id="linkedIn" src="./Images/linkedin.png" alt="Graphic of Linked In Logo">
                         </a>
                 </div>
         </section>
    </main>
-    
+   
+   <!-- Footer contains text -->
    <footer>
         <p id="footer">See you soon!</p>
    </footer>
