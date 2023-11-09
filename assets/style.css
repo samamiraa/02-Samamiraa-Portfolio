@@ -1,3 +1,4 @@
+/* Variables created for repeating properties ie. Color, Padding and Border Radius */
 :root {
     --darkGray: #111111;
     --lightBlue: #d1f2ff;
@@ -6,24 +7,28 @@
     --borderRadius: 25px;
 }
 
+/* Background color, text color and bottom border for 'Header' */
 header {
     background-color: var(--lightGray);
     color: var(--light);
     border-bottom: 4px solid var(--lightBlue);
 }
 
+/* Background Color, font family and text color for 'Body' */
 body {
    background-color: var(--darkGray);
    font-family: Arial, Helvetica, sans-serif;
    color: var(--lightBlue);
 }
 
+/* Font size, padding and top margin for 'h1' element */
 h1 {
     font-size: 40px;
     padding: var(--padding20);
     margin-top: 50px;
 }
 
+/* Font size, padding, top margin, display and justify contect for 'h2' element */
 h2 {
     font-size: 30px;
     padding: 10px;
@@ -32,123 +37,141 @@ h2 {
     justify-content: center;
 }
 
+/* Display, font size and padding for 'h3'element */
 h3 {
     display: inline-block;
     font-size: 20px;
     padding: var(--padding20);
 }
 
+/* Padding for 'p' element */
 p {
     padding: var(--padding20);
 }
 
+/* Display for 'li' items */
 li {
     display: inline;
 }
 
+/* Fixed width and height for 'img' */
 img {
     width: 300px;
     height: 200px;
 }
 
+/* Display and justify content for 'figure' */
 figure {
     display: flex;
     justify-content: center;
 }
 
+/* Margin, fixed width, padding, sets 5px border and border radius for rounded corners for 'form' */
 form {
     margin: 0 auto;
-    width: 200px;
-    padding: 10px;
+    width: 225px;
+    padding: 20px 20px;
     border: 5px solid var(--lightGray);
     border-radius: var(--borderRadius);
-    display: flex;
-    justify-content: stretch;
 }
 
+/* Fixed width for 'button' */
 button {
     width: 100px;
 }
 
+/* Immediate child elements wrap underneath to avoid horizontal scroll */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Makes text align to right side of page */
 .text-right {
     text-align: right;
-    display: inline;
 }
 
+/* Centers text for class 'text center' */
 .text-center {
     text-align: center;
 }
 
+/* Sets background color and rounded corners for repository links */
 .background-color {
     background-color: var(--lightGray);
     border-radius: var(--borderRadius);
 }
 
+/* Includes max width, padding and margin. Creates border with rounded corners. Flex  */
+/* basis and flex grow. */
 .card {
     flex: 1 0 30%;
     padding: 10px;
-    flex-direction: column;
-    justify-content: stretch;
-    align-items: center;
     margin: 15px 15px;
     border: 3px solid var(--lightGray);
     border-radius: var(--borderRadius);
     max-width: 385px;
 }
 
+/* Sets width, margin for left and right */
 .center {
-    margin-left: -25px;
+    margin-left: -30px;
     margin-right: auto;
     width: 50%;
-  }
+}
 
+/* Sets margin and padding for class 'a padding' for repository links */
 .a-padding {
     margin-top: 50px;
     padding: 15px;
 }
 
-.form-center{
+/* Sets display to flex and directions to column. Line height to create space inbetween text and input  */
+.form-center {
     display: flex;
     flex-direction: column;
+    line-height: 2;
 }
 
+/* Sets display to flex, justify content and align items to center linkedIn section */
 #display-inline {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Sets background color and bottom border color for About me section */
 #about {
     background: var(--lightGray);
     border-bottom: 4px solid var(--lightBlue);
 }
 
+/* Sets min width and padding for 'p' element in about me section */
 #p-padding {
     padding: 50px;
     min-width: 150px;
 }
 
+/* Sets display to flex, flex-wrap and justify content for my work section */
 #myWork {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
+/* Sets width and height for first application to have enlarged photo that is bigger than rest */
 #enlarged {
     width: 350px;
     height: 300px;
 }
 
+/* Sets width and height for linkedIn icon */
 #linkedIn {
     width: 30px;
     height: 30px;
 }
 
+/* Sets width, height, padding and display to flex for avatar */
 #avatar img {
     width: 220px;
     height: 200px;
@@ -156,6 +179,7 @@ button {
     display: flex;
 }
 
+/* Sets font size, font weight, centers text, background color, top border color and padding for 'footer' */
 #footer {
     font-size: 30px;
     font-weight: 400;
@@ -165,19 +189,21 @@ button {
     padding: var(--padding20);
 }
 
+/* Sets text color, padding, text decoration and display for nav links */
 a:link, a:visited {
     color: var(--lightBlue);
     padding: 25px 35px;
     text-decoration: none;
     display: inline-block;
-  } 
+}
 
+/* Creats glow for card boxes when mouse hovers over */
 .card:hover {
     box-shadow: inset 0px 0px 10px var(--lightBlue), 0 0 20px var(--lightBlue);
 }
 
-
-  @media  screen and (max-width: 992px) {
+/* Changes text color for entire page when screen size is between 769px - 992px */
+@media  screen and (max-width: 992px) {
     body,
     a:visited {
         color: #46ceff;
@@ -185,6 +211,7 @@ a:link, a:visited {
 
  }
 
+ /* Changes text color for entire page when screen size is 768px or less */
  @media  screen and (max-width: 768px) {
    body,
    a:visited {
