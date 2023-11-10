@@ -2,7 +2,7 @@
 
 ## My portfolio that will house all projects I have completed.
 
-I wanted to prove to myself that I am capable of applying advanced CSS to projects - that was my motivation. To prove that I am understanding how things work. It is essential for every developer to have a portfolio. I built this to showcase to any future employers. CSS styling is important for the aesthetics of any page, it is what the users see. I learned many how to make webpages responsive and interactive through CSS alone. I also learned there is still so much to learn.
+I wanted to prove to myself that I am capable of applying advanced CSS to projects - that was my motivation. To prove that I am understanding how things work. It is essential for every developer to have a portfolio. I built this to showcase to any future employers. CSS styling is important for the aesthetics of any page, it is what the users see. I learned how to make webpages responsive and interactive through CSS alone. I also learned there is still so much to learn.
 
 ## Installation
 
@@ -14,7 +14,7 @@ Before creating my CSS style sheet. I created a wireframe to plan out what I wan
 First way to use the website is the navigation bar in the header. It includes 3 clickable links that will jump down to the corresponding section.<br>
 <img width="1280" alt="navigation header bar" src="https://github.com/samamiraa/02-Samamiraa-Portfolio/assets/146762114/914635ff-b292-46e6-b8ba-3431e50e809b"><br>
 For example if you click the "Contact Me" link<br>
-<img width="155" alt="contact me link" src="https://github.com/samamiraa/02-Samamiraa-Portfolio/assets/146762114/ff0d1c0b-99bc-4e7c-ad3a-027296da39ed">
+<img width="155" alt="contact me link" src="https://github.com/samamiraa/02-Samamiraa-Portfolio/assets/146762114/ff0d1c0b-99bc-4e7c-ad3a-027296da39ed"><br>
 Then it will jump down to its corresponding section!<br>
 <img width="1280" alt="contact me section" src="https://github.com/samamiraa/02-Samamiraa-Portfolio/assets/146762114/74dbea70-d7f5-4c1f-8195-d05a956cae21"><br>
 
@@ -34,7 +34,7 @@ When the screen is between 769px and 992px, it will look like this.<br>
 When the screen is less than 768px, it will look like this.<br>
 <img width="761" alt="Media Query 768px" src="https://github.com/samamiraa/02-Samamiraa-Portfolio/assets/146762114/d827e851-b21d-4160-9194-4e097fdab693"><br>
 
-Lastly, at the bottom there is a Linked In icon. Once you click it, it will take the user to the developers proffesional Linked In page.<br>
+Lastly, at the bottom there is a Linked In icon. Once you click it, it will take the user to the developers profesional Linked In page.<br>
 <img width="332" alt="letsconnect" src="https://github.com/samamiraa/02-Samamiraa-Portfolio/assets/146762114/5659ddb2-c5e9-4e7b-b70b-102f1dfd3ad7">
 
 
@@ -79,4 +79,5 @@ N/A
 
 ## Tests
 
-To test my portfolio page, please refer to the usage section with the image examples to take you to all the links included in my portfolio. Please find the live URL here. 
+To test my portfolio page, please refer to the usage section with the image examples to take you to all the links included in my portfolio. Please find the live URL here. <br>
+https://samamiraa.github.io/02-Samamiraa-Portfolio/
