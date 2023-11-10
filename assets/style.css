@@ -235,7 +235,8 @@ a:link, a:visited {
 }
 
 /* Creats glow for card boxes when mouse hovers over */
-.card:hover {
+.card:hover,
+form:hover {
     box-shadow: inset 0px 0px 10px var(--lightBlue), 0 0 20px var(--lightBlue);
 }
 
