@@ -56,7 +56,7 @@ Coming Soon Img
 Image by starline on Freepik
 https://www.freepik.com/free-vector/coming-soon-display-background-with-focus-light_18505068.htm#query=coming%20soon&position=15&from_view=keyword&track=ais 
 
-I referred to the class materials for a lot of guidance as well. Also, a thank you to my tutor Andrew, who answered my thousands of questions when I was absolutely stumped. 
+I referred to the class materials for a lot of guidance as well. I was able to reverse engineer what certain things did and applied it to where it was needed in my own code. Also, a thank you to my tutor Andrew, who answered my thousands of questions when I was absolutely stumped. 
 
 ## License
 
