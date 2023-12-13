@@ -85,11 +85,20 @@ button {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* sets left margin for class 'heading margin' */
 .heading-margin {
-    margin-left: 75px;
+    margin-left: 55px;
+}
+
+.heading-margin-04 {
+    margin-left: 95px;
+}
+
+.heading-margin-05 {
+    margin-left: 85px;
 }
 
 /* Sets left margin for class 'heading center' */
@@ -99,12 +108,17 @@ button {
 
 /* Sets margin for 'p' element in adv css & code refactor card */
 .paragraph-margin {
-    margin: 95px 0px 20px 10px;
+    margin: 0px 0px 20px 10px;
 }
 
 /* Sets left margin for 'p' element in js cards */
 .js-paragraph {
-    margin-left: 90px;
+    margin-left: 30px;
+}
+
+.paragraph-voice {
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 /* Makes text align to right side of page */
@@ -160,7 +174,7 @@ button {
 
 /* Sets margins for js project repository links */
 .js-margin {
-    margin: 65px 0px 20px 60px;
+    margin: 30px 0px 20px 30px;
 }
 
 /* Sets display to flex and directions to column. Line height to create space inbetween text and input  */
@@ -198,8 +212,9 @@ button {
 
 /* Sets width and height for first application to have enlarged photo that is bigger than rest */
 #enlarged {
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
+    padding-left: 30px;
 }
 
 /* Sets width and height for linkedIn icon */
